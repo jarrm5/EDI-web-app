@@ -1,0 +1,51 @@
+* {
+    font-family:verdana;
+}
+
+h1{
+    color: #394FC5;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+h1 > span{
+    color: orange;
+    font-size: 50%;
+    padding: 0 0 0 10px;
+}
+
+form fieldset{
+    margin:0;
+    padding: 10px;
+    text-align:center;
+}
+
+table tr{
+    text-align:center;
+}
+
+table tr th, table tr td{
+    padding: 5px;
+    border-collapse: none;
+}
+
+table tr th {
+    /* border-bottom: 2px solid black; */
+    text-align:center;
+    /* background-color: #394FC5; */
+    background-color: black;
+    /* color: orange; */
+    color: white;
+}
+
+table tr td:nth-child(1) {
+    text-align:left;
+}
+
+table tr:hover{
+    background-color: orange;
+}
+
+table tr td:hover{
+    background-color: #394FC5;
+}
