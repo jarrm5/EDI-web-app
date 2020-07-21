@@ -1,5 +1,10 @@
-* {
+html{
+    font-size: 62.5%;
     font-family:verdana;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 /* #header{
@@ -56,7 +61,7 @@ nav > ul > a > li{
     border-right: 2px solid black;
 } */
 
-#main nav ul {
+#header nav ul {
     list-style-type: none;
     background-color: #394FC5;
     margin:0;
@@ -65,9 +70,10 @@ nav > ul > a > li{
     border: 2px solid black;
 }
 
-#main nav ul li{
+#header nav ul li{
     padding:15px;
     background-color: orange;
+    font-size: 1.5rem;
     /* width: 30%; */
     text-align:center;
     float:left;
@@ -77,14 +83,14 @@ nav > ul > a > li{
     border:none;
 } */
 
-#main nav ul li a{
+#header nav ul li a{
     color: black;
     font-weight: bold;
     text-decoration: none;
     display:block;
 }
 
-#main nav ul li a:hover{
+#header nav ul li a:hover{
     font-style: italic;
     color: #394FC5;
 }
@@ -94,5 +100,6 @@ nav > ul > a > li{
     background-color: #394FC5;
     text-align:center;
     font-weight: bold;
+    font-size: 0.8rem;
     padding: 5px;
 }
