@@ -5,6 +5,11 @@ html{
 
 h1 {
     font-size: 3rem;
+    text-align:center;
+    min-width: 30rem;
+    max-width: 100%;
+    padding: 10px 0;
+    margin: 0;
 }
 
 /* #header{
@@ -72,12 +77,13 @@ nav > ul > a > li{
 
 #header nav ul li{
     padding:15px;
-    background-color: orange;
+    background-color: #ffb000;
     font-size: 1.5rem;
     /* width: 30%; */
     text-align:center;
-    float:left;
+    /*float:left;*/
     border-right: 2px solid black;
+    display:inline-block;
 }
 /* #main nav ul li:nth-last-child(1){
     border:none;
